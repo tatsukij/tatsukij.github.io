@@ -1,0 +1,21 @@
+:root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif; line-height: 1.8; color: #14213d; background: #f8fafc; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.wrap { width: min(100% - 2.5rem, 760px); margin-inline: auto; }
+.site-header { background: #11254a; color: white; }
+.site-header .wrap { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding-block: 1rem; }
+.site-header a { color: white; }
+.brand { font-weight: 700; text-decoration: none; }
+nav { display: flex; flex-wrap: wrap; gap: .5rem 1rem; font-size: .9rem; }
+main { padding-block: 3.5rem 2.5rem; }
+.eyebrow { margin: 0 0 .5rem; color: #315985; font-size: .9rem; font-weight: 700; }
+h1 { margin: 0 0 1.25rem; font-size: clamp(1.8rem, 5vw, 2.75rem); line-height: 1.35; }
+.lead { font-size: 1.08rem; }
+section, .policy h2 { margin-top: 2.25rem; }
+h2 { font-size: 1.2rem; line-height: 1.45; }
+a { color: #1455a1; text-underline-offset: .18em; }
+a:focus-visible { outline: 3px solid #f4ad35; outline-offset: 3px; }
+code { overflow-wrap: anywhere; font-size: .9em; }
+.site-footer { display: flex; gap: 1.5rem; border-top: 1px solid #cbd5e1; padding-block: 1.5rem 2.5rem; font-size: .9rem; }
+.updated { color: #475569; font-size: .9rem; }
+@media (max-width: 600px) { .site-header .wrap { align-items: flex-start; flex-direction: column; } main { padding-top: 2.5rem; } }
