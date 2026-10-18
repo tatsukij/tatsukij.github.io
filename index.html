@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="B.LEAGUE Shorts Automationは、試合前の見どころを短い動画にする非公式の個人プロジェクトです。">
+  <title>B.LEAGUE Shorts Automation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">B.LEAGUE Shorts Automation</a>
+      <nav aria-label="サイト内ナビゲーション">
+        <a href="privacy.html">プライバシーポリシー</a>
+        <a href="terms.html">利用条件</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <p class="eyebrow">個人開発・非公式プロジェクト</p>
+    <h1>試合前に、見るポイントをひとつ。</h1>
+    <p class="lead">B.LEAGUE Shorts Automationは、B.LEAGUEの試合前プレビュー動画を作る個人用ツールです。バスケットボールを見始めた人にも、試合の見どころを短く伝えることを目指しています。</p>
+
+    <section aria-labelledby="how-it-works">
+      <h2 id="how-it-works">しくみ</h2>
+      <p>動画の生成処理は開発者のMac mini上で実行します。Google OAuthは開発者本人のYouTubeチャンネルへ動画を投稿するために使用し、要求する権限は <code>youtube.upload</code> のみです。現在の自動投稿は非公開動画に限定しています。</p>
+      <p>このWebサイトはツールの説明とポリシーを掲載する静的ページです。サイトからGoogleへのログインやYouTubeへの投稿は行いません。</p>
+    </section>
+
+    <section aria-labelledby="data-handling">
+      <h2 id="data-handling">データの取り扱い</h2>
+      <p>OAuth認証情報は公開サイトや公開リポジトリに置かず、開発者のローカル環境で管理します。このサイトはOAuth tokenを取得・保存しません。Googleユーザーデータの利用目的、保管方法、提供先については<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+    </section>
+
+    <section aria-labelledby="disclaimer">
+      <h2 id="disclaimer">非公式について</h2>
+      <p>このプロジェクトは個人が開発・運用するもので、B.LEAGUE、各クラブ、Google、YouTubeの公式サービスではなく、各組織による承認・提携を示すものではありません。第三者向けのOAuthアプリとしては提供していません。</p>
+    </section>
+  </main>
+  <footer class="wrap site-footer">
+    <a href="privacy.html">プライバシーポリシー</a>
+    <a href="terms.html">利用条件</a>
+  </footer>
+</body>
+</html>
